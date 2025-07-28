@@ -1,0 +1,21 @@
+{
+  "name": "mern-trial",
+  "version": "1.0.0",
+  "description": "A simple notes application that is built using MERN stack. It supports creating notes, viewing them, adding more notes, deleting them, and updating them. This project is inspired by the freecodecamp tutorial on YouTube ( https://youtu.be/F9gB5b4jgOI?si=V_xUD9HjcwAk92LK ).",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shawn-le-don-epic/MERN-Note-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shawn-le-don-epic/MERN-Note-App/issues"
+  },
+  "homepage": "https://github.com/Shawn-le-don-epic/MERN-Note-App#readme"
+}
